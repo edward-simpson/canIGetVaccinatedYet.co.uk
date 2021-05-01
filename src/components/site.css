@@ -37,3 +37,9 @@ h3 {
 p {
 
 }
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
