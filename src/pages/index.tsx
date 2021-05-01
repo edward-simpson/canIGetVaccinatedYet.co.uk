@@ -10,14 +10,14 @@ const IndexPage = () => (
     <Seo title="Can I get vaccinated yet?" />
     <h1>Can I get vaccinated yet?</h1>
     <Age />
-    <h2>Is current lower age of vaccination in England.</h2>
+    <h2>Is current lower age of vaccination* in England.</h2>
     <p>
-      N.B.: This does not take into account people with preexisting conditions,
-      care workers, etc, etc. Check the{" "}
+      *This does not take into account people with preexisting conditions, care
+      workers, etc, etc. Check the{" "}
       <Link to="https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/book-coronavirus-vaccination/">
         gov site
       </Link>{" "}
-      to see other conditions
+      to see other conditions.
     </p>
   </Layout>
 );
