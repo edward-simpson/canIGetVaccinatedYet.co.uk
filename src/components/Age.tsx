@@ -13,7 +13,8 @@ export const Age = (): JSX.Element => {
       }
     })
       .then((response) => response.json())
-      .then((data) => !unmounted && setAge(data.age));
+      .then((data) => !unmounted && setAge(data.age))
+      .catch((e) => console.error(e));
 
     return (): void => {
       unmounted = true;
