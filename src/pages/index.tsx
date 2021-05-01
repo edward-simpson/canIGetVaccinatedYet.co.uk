@@ -13,9 +13,8 @@ const IndexPage = () => (
     <h2>Is the current bottom age limit of vaccination* in England.</h2>
     <p>
       *This does not take into account people with preexisting conditions, care
-      workers, etc, etc. to see other conditions. This is purely meant as a
-      guide, if you feel you should be getting the vaccine you should probably
-      check the{" "}
+      workers, etc, etc. This is purely meant as a guide, if you feel you should
+      be getting the vaccine you should probably check the{" "}
       <Link to="https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/book-coronavirus-vaccination/">
         gov site
       </Link>{" "}
