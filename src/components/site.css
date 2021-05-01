@@ -1,0 +1,38 @@
+body,
+body > div,
+body > div > div,
+body > div > div > div {
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+
+main {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+
+h2 {
+    align-items: baseline;
+    display: flex;
+    font-size:  1.6rem;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+p {
+
+}
