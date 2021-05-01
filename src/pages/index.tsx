@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Seo title="Can I get vaccinated yet?" />
     <h1>Can I get vaccinated yet?</h1>
     <Age />
-    <h2>Is current lower age of vaccination* in England.</h2>
+    <h2>Is the current bottom age limit of vaccination* in England.</h2>
     <p>
       *This does not take into account people with preexisting conditions, care
       workers, etc, etc. Check the{" "}
