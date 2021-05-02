@@ -23,14 +23,14 @@ h1 {
     margin: 2rem 0;
 }
 
-h2 {
+h3 {
     align-items: center;
     display: flex;
     font-size:  1.6rem;
     justify-content: center;
 }
 
-h3 {
+h2 {
     font-size: 5rem;
 }
 

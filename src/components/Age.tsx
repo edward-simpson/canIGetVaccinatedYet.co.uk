@@ -21,5 +21,5 @@ export const Age = (): JSX.Element => {
     };
   }, []);
 
-  return <h3 style={{ fontSize: `7rem` }}>{age}</h3>;
+  return <h2 style={{ fontSize: `7rem` }}>{age}</h2>;
 };
